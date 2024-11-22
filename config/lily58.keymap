@@ -60,8 +60,8 @@
             bindings = <
 &kp HOME        &trans  &trans  &trans    &trans    &trans                       &trans          &trans          &trans        &trans            &trans             &kp END
 &kp GRAVE       &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                       &kp N6          &kp N7          &kp N8        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp LEFT_SHIFT  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6                       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT         &none              &trans
-&kp LCTRL       &kp F8  &kp F9  &kp F10   &kp F11   &kp F12  &trans      &trans  &kp KP_PLUS     &kp MINUS       &kp EQUAL     &kp LBKT          &trans             &kp BSLH
+&kp LEFT_SHIFT  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6                       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT         &none              &kp GRAVE
+&kp LCTRL       &kp F8  &kp F9  &kp F10   &kp F11   &kp F12  &trans      &trans  &kp KP_PLUS     &kp MINUS       &kp EQUAL     &kp LBKT          &kp BACKSLASH      &trans
                                 &kp LGUI  &kp LALT  &trans   &kp LGUI    &trans  &trans          &trans          &trans
             >;
         };
